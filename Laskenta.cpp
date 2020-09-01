@@ -3387,7 +3387,7 @@ bool Log::guaranteed(Expression::Attribute a) const
     if (f_x->guaranteed(Expression::Attribute::POSITIVE)) switch (a)
     {
     case Expression::Attribute::DEFINED:
-        true;
+        return true;
 
     case Expression::Attribute::CONTINUOUS:
     case Expression::Attribute::INCREASING:
