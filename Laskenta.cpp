@@ -25,7 +25,7 @@ SOFTWARE.
 
 #include "Laskenta.h"
 
-#define VERBOSE
+// #define VERBOSE
 #include "Tools.h"
 
 #include <algorithm>
